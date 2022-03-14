@@ -15,7 +15,17 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
-		return true;
+		let debris: string = "Space Debris"
+        if (this.type.toLowerCase() === debris.toLocaleLowerCase()) {
+            return true;
+        } else {
+            return false;
+        }
+   }
+
+   stripes(arr): boolean {
+		// return arr.indexOf(this) % 2 === 0 && this.type.toLowerCase() !== 'space debris';
+		return arr.indexOf(this) % 2 === 0;
    }
 
 }
