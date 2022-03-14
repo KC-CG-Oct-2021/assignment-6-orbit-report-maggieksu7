@@ -1,6 +1,6 @@
 .sortable {
-	cursor: pointer;
 	color: #dd5;
+	cursor: pointer;
 }
 
 .warning {
@@ -8,21 +8,27 @@
 }
 
 table {
- color: #111;
- border-radius: 5px;
- overflow: hidden;
- margin: 12px 0;
- min-width: 300px;
- background: #dad8d8;
+	background: #dad8d8;
+	border-radius: 15px;
+	color: #111;
+	margin: 12px 0;
+	min-width: 300px;
+	overflow: hidden;
+	padding: 8px;
 }
 
 .header-row {
-	background: #34495E;
+	background: #43455d;
 	color: #fff
 }
 
 th, td {
-	text-align: left;
 	margin: 5px 10px;
 	padding: 6px;
+	text-align: left;
+}
+
+.stripe {
+    background-color: hsl(266, 93%, 79%);
+    color: black;
 }

@@ -1,14 +1,26 @@
 .counts {
-	background: #34495E;
-	color: #fff;
-	border-radius: 5px;
-	width: 225px;
+	background: hsl(266, 93%, 79%);
+    border-radius: 15px;
+    color: black;
+    margin: 20px 0;
+    overflow: hidden;
+    padding: 8px;
+    width: 225px;
 }
 
 .counts div {
-	padding: 8px;
+    padding: 8px;
 }
 
 .counts span {
-	float: right;
+    float: right;
+}
+
+.header {
+    background-color: #3c4752;
+    color: white;
+}
+
+h3 {
+    color: white;
 }
